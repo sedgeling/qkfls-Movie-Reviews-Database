@@ -4,3 +4,6 @@ applications:
    buildpack: nodejs_buildpack
    random-route: true
    memory: 128M
+services:
+     - cloudappdev-cloudant-as
+     - cloudappdevs-nlu
